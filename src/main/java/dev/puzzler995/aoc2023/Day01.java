@@ -81,7 +81,7 @@ public class Day01 {
 
   private void part1(Resource resource) {
     final String logBase = "Part 1 - " + resource.getFilename() + ": ";
-    log.info(logBase);
+    log.info(logBase + "Start");
     int total = 0;
     try (BufferedReader reader = new BufferedReader(new FileReader(resource.getFile()))) {
       String line;
