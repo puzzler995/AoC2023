@@ -1,0 +1,9 @@
+logging:
+  level:
+    dev:
+      puzzler995:
+        aoc2023:
+          Day01: INFO
+          Day02: INFO
+          Day03: INFO
+          Day04: INFO

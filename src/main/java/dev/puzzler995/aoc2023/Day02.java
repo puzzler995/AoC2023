@@ -78,7 +78,7 @@ public class Day02 {
         }
       }
     } catch (IOException e) {
-      log.error(logBase + "Error reading file", e);
+      log.error(logBase + "Error reading file", e.getMessage());
     }
     log.info(logBase + "Possible Games: " + possibleGames);
     int total = 0;
@@ -137,7 +137,7 @@ public class Day02 {
         powers.add(power);
       }
     } catch (IOException e) {
-      log.error(logBase + "Error reading file", e);
+      log.error(logBase + "Error reading file", e.getMessage());
     }
     log.info(logBase + "Powers: " + powers);
     int total = 0;

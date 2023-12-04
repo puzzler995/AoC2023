@@ -90,7 +90,7 @@ public class Day01 {
         log.debug(logBase + "New Total: " + total);
       }
     } catch (Exception e) {
-      log.error(logBase + "Error reading file", e);
+      log.error(logBase + "Error reading file", e.getMessage());
     }
     log.info(logBase + "Total: " + total);
   }
@@ -107,7 +107,7 @@ public class Day01 {
         total += Integer.parseInt(val);
       }
     } catch (Exception e) {
-      log.error(logBase + "Error reading file", e);
+      log.error(logBase + "Error reading file", e.getMessage());
     }
     log.info(logBase + "Total: " + total);
   }
